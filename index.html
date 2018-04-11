@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>La Leyenda del Arbol Magico</title>
+  <meta name="description" content="">
+  <meta name="author" content="Carlos J. Sanchez Roman">
+
+  <link href="./css/index.css" rel="stylesheet">
+  <link href="./font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Abel|Cormorant+Upright:400,700|Tangerine:400,700" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <!-- Start Navigation bar -->
+  <nav>
+    <ul>
+      <!-- Navbar -->
+      <li style="width:200px;padding-left:5%;"> <a id="events_link" class="active" onclick="show_events()">Portada</a> </li>
+      <li style="width:200px;"> <a id="resena_link" class="" onclick="show_resena()">Reseña</a> </li>
+      <li style="width:200px;"> <a id="autor_link" class="" onclick="show_autor()">Autor</a> </li>
+      <!-- Social links -->
+      <li style="float:right;padding-right:25px;"> <a class="fa fa-instagram" href="https://www.instagram.com/cjsanchezroman/"> </a> </li>
+      <li style="float:right"> <a class="fa fa-twitter" href="https://twitter.com/carlosjaviers"> </a> </li>
+      <li style="float:right"> <a class="fa fa-facebook" href="https://www.facebook.com/LaLeyendadelArbolMagico/"> </a> </li>
+    </ul>
+  </nav>
+
+  <div id="main">
+    <div id="portada">
+      <!-- Libro -->
+      <img  src="./img/Portada.jpg" style="box-shadow:-8px 8px 10px #888888; min-width: 330px; min-height: 512px;">
+
+      <!-- CTA Amazon Buy Now -->
+      <div id="amazon-text">
+        <a id="amazon-link" href="https://www.amazon.com/gp/product/1974312046/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=dollarman01-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1974312046&linkId=2ae560ab7ea91a73a1b3582a1f0f6a39"
+        style="color:black;margin-top:20px;text-align:center;font-family:Helvetica;">
+          Cómpralo en <i class="fa fa-amazon" aria-hidden="true"></i>  Amazon
+      </a></div>
+
+    </div>
+    <div id="events" class="page">
+
+      <div class="top-message">
+        "Una historia que, verdaderamente, podría convertirse en una de las más hermosas historias de la Navidad."
+      </div>
+
+      <div class="box c">
+        Próxima Presentación en<span id="countdown"></span>:
+        <br>
+      </div>
+
+      <div id="event-1" class="box c event-data">
+        Librería The Bookmark <a href="https://www.google.com/maps/place/The+Bookmark/@18.4081331,-66.1072197,17z/data=!3m1!4b1!4m5!3m4!1s0x8c03690610b32ebb:0xdb403e121b1f41ed!8m2!3d18.408128!4d-66.105031" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i></a>
+        <p>
+          <ul>
+            <li> Fecha: &nbsp; 21 de Septiembre de 2017</li>
+            <li> Lugar: &nbsp; San Patricio Plaza</li>
+            <li> Hora: &nbsp; &nbsp; 7:00 pm</li>
+          </ul>
+        </p>
+        <br> Librería Mi Casita <a href="https://www.google.com/maps/place/Aguadilla+Mall/@18.4258332,-67.1517917,17z/data=!3m1!4b1!4m5!3m4!1s0x8c02bc8cecf332a3:0xaef0a884f581bb14!8m2!3d18.4258332!4d-67.149603" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i></a>
+        <p>
+          <ul>
+            <li> Fecha: &nbsp; 29 de Septiembre de 2017</li>
+            <li> Lugar: &nbsp; Aguadilla Mall </li>
+            <li> Hora: &nbsp; &nbsp; 7:00 pm</li>
+          </ul>
+        </p>
+
+      </div>
+
+<!--       <div id="event-2" class="box c event-data">
+
+        <p>
+          <ul>
+
+          </ul>
+        </p>
+      </div> -->
+
+    </div>
+
+    <div id="resena" class="page" style="display:none">
+
+      <p>Durante las Navidades, como la mayoría de nosotros, yo disfruto viendo películas de la época. Algunas son tan buenas que las repito, año tras año, una y otra vez. Otras son tan malas que me cuestiono cómo habrán hecho para llegar a la pantalla grande.
+      </p>
+      <p>Yo tengo una historia que, verdaderamente, podría convertirse en una de las más hermosas historias de la Navidad, e incluso llegar a ser una de esas películas navideñas que uno no se cansa de repetir. </p>
+      <p>De hecho, llevo décadas contándosela a mis amigos durante la época navideña y ellos todavía se cuestionan lo que sucedió aquel año en el que un padre logró salvar la magia de la Navidad para su hija gracias a conocerse muy bien, y por fortuna, la
+        leyenda del árbol mágico.</p>
+      <p>Pero no me lo crean a mí. Aventúrense a leer mi novela y decidan por ustedes mismos. Los invito, pues, a conocer la historia más hermosa de la Navidad, el secreto mejor guardado de ella: La Leyenda del Árbol Mágico. </p>
+    </div>
+
+    <div id="autor" class="page" style="display:none">
+      <aside>
+        <img src="./img/author-small.jpg" style="position:relative;float:right;border-radius:150px;width:270px;height:304px;">
+      </aside>
+      <p>
+        Carlos Javier Sánchez Román, nacido en San Juan, la Capital de la hermosa Isla de Puerto Rico, completó sus estudios universitarios en la Universidad de Puerto Rico, Recinto de Mayagüez, con una Concentración en Finanzas y Mercadeo. Tras una incursión
+        en el mundo de los negocios en la industria de las telecomunicaciones, hizo una Maestría en Artes, con Concentración en Relaciones Laborales, graduándose con la distinción más alta, Summa Cum Laude, tras lo cual prosiguió una exitosa carrera en
+        Derecho, graduándose de la Universidad Interamericana con Altos Honores, Magna Cum Laude. Desde entonces se ha dedicado al ejercicio de la abogacía.
+      </p>
+      <p>
+        Mejor conocido por sus intervenciones en un muy sonado caso de alto perfil, decidió recientemente incursionar en el mundo de las letras desde otro plano. Así, pues, nos presenta su primera novela de ficción, basada en asombrosos hechos de la vida real.
+      </p>
+    </div>
+  </div>
+  <!-- Countdown Timer script -->
+  <script>
+    function show_autor() {
+      document.getElementById("resena").style = "display:none";
+      document.getElementById("events").style = "display:none";
+      document.getElementById("autor").style = "";
+
+      document.getElementById("resena_link").classList.remove("active");
+      document.getElementById("events_link").classList.remove("active");
+      document.getElementById("autor_link").classList.add("active");
+      return;
+    }
+
+    function show_resena() {
+      document.getElementById("resena").style = "";
+      document.getElementById("events").style = "display:none";
+      document.getElementById("autor").style = "display:none";
+
+      document.getElementById("resena_link").classList.add("active");
+      document.getElementById("events_link").classList.remove("active");
+      document.getElementById("autor_link").classList.remove("active");
+      return;
+    }
+
+    function show_events() {
+      document.getElementById("resena").style = "display:none";
+      document.getElementById("events").style = "";
+      document.getElementById("autor").style = "display:none";
+
+      document.getElementById("resena_link").classList.remove("active");
+      document.getElementById("events_link").classList.add("active");
+      document.getElementById("autor_link").classList.remove("active");
+      return;
+    }
+    // Set the date we're counting down to
+    let countDownDate = new Date("Sep 8, 2017 19:00:00").getTime();
+
+    // Update the count down every 1 second
+    let x = setInterval(function() {
+
+      // Get todays date and time
+      let now = new Date().getTime();
+
+      // Find the distance between now an the count down date
+      let distance = countDownDate - now;
+
+      // Time calculations for days, hours, minutes and seconds
+      let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      // Display the result in the element with id="demo"
+      // document.getElementById("countdown").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+      if (days > 0) {
+        document.getElementById("countdown").innerHTML = " " + days + " días";
+      } else {
+        document.getElementById("countdown").innerHTML = " " + hours + "h " + minutes + "m " + seconds + "s";
+      }
+
+      // If the count down is finished, write some text
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("countdown").innerHTML = "";
+      }
+    }, 1000);
+  </script>
+  <!-- End Countdown Timer script -->
+</body>
+
+</html>
